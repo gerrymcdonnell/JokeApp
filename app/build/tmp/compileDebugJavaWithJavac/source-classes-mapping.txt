@@ -1,0 +1,17 @@
+com/example/jokeapp/util/MyRandomNumber.java
+ com.example.jokeapp.util.MyRandomNumber
+com/example/jokeapp/BuildConfig.java
+ com.example.jokeapp.BuildConfig
+com/example/jokeapp/xml/JokeXMLReaderSax.java
+ com.example.jokeapp.xml.JokeXMLReaderSax
+com/example/jokeapp/business/Joke.java
+ com.example.jokeapp.business.Joke
+com/example/jokeapp/db/DatabaseHandler.java
+ com.example.jokeapp.db.DatabaseHandler
+com/example/jokeapp/MainActivity.java
+ com.example.jokeapp.MainActivity
+ com.example.jokeapp.MainActivity$1
+ com.example.jokeapp.MainActivity$2
+ com.example.jokeapp.MainActivity$3
+ com.example.jokeapp.MainActivity$4
+ com.example.jokeapp.MainActivity$5

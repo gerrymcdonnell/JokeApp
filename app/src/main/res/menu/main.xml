@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+      <item
+        android:id="@+id/action_import_xml_jokes"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Import Jokes"/>
+    
+     <item
+        android:id="@+id/action_addjoke"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Add Joke"/>
+     
+     <item
+        android:id="@+id/action_delete_alljokes"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="delete all"/>
+     
+     
+  
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
