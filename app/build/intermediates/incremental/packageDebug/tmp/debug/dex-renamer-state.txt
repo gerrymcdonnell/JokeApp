@@ -1,4 +1,4 @@
-#Wed Dec 09 11:56:26 GMT 2020
-base.0=C\:\\Users\\gerry\\StudioProjects\\JokeApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
-path.0=classes.dex
+#Mon Aug 23 22:33:19 BST 2021
+base.0=C\:\\Users\\ged\\Documents\\GitHub\\JokeApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex
