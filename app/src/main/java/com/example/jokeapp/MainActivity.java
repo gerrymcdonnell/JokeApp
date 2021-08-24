@@ -135,7 +135,7 @@ public class MainActivity extends Activity {
 		});		
 	}
 	
-
+	//get joke button
 	private void addHandlerforGetJokeButton() {
 		// TODO Auto-generated method stub
 		//create action listeners for buttons
@@ -198,32 +198,22 @@ public class MainActivity extends Activity {
 	}
 	
 	
-	
+	//displays a random joke
 	void displayRandomJoke(){
-		int n=myRandom.getNum();		
-		
-		displayJoke(n);
-		
-		Log.v("Joke #",""+n);
+
+		if (jokeList.size()==0){
+			Toast.makeText(this, "Error: No Jokes",Toast.LENGTH_SHORT).show();
+		}
+		else{
+			int n=myRandom.getNum();
+			displayJoke(n);
+		}
+
+
+
 	}
 	
-	/*
-	void testJoke(){
-		String sJoke="The old lady was standing at the railing of the cruise ship holding her hat on tight so that it would not blow off in the wind."+
-				"A gentleman approached her and said: 'Pardon me, madam. I do not intend to be forward, but did you know that your dress is blowing up in this high wind?"+
-				"'Yes, I know,' said the lady, 'I need both hands to hold onto this hat.” “But, madam, you must know that your privates are exposed!” said the gentleman in earnest."+
-				"The woman looked down, then back up at the man and replied, 'Sir, anything you see down there is 85 years old. I just bought this hat yesterday!'"+
-				"The old lady was standing at the railing of the cruise ship holding her hat on tight so that it would not blow off in the wind."+
-				"A gentleman approached her and said: 'Pardon me, madam. I do not intend to be forward, but did you know that your dress is blowing up in this high wind?"+
-				"'Yes, I know,' said the lady, 'I need both hands to hold onto this hat.” “But, madam, you must know that your privates are exposed!” said the gentleman in earnest."+
-				"The woman looked down, then back up at the man and replied, 'Sir, anything you see down there is 85 years old. I just bought this hat yesterday!'";
-		
-		displayJoke(sJoke);
-		
-		//db.addJoke(sJoke);
-	}
-	*/
-	
+
 	void testAddJoke(){
 		
 		AlertDialog.Builder alert = new AlertDialog.Builder(this);
@@ -258,7 +248,9 @@ public class MainActivity extends Activity {
 	}
 	
 	
-	
+	/**
+	 * read xml file and add to database
+	 **/
 	private void parseXML() {
 		AssetManager assetManager = getBaseContext().getAssets();
 		try {

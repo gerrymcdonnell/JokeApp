@@ -1,5 +1,6 @@
 <JokeList>
   <jokeList>
+
     <Joke>
       <sJoke>A man walks up to the pub and is about to go into it when the nun starts shouting. &quot;BEFORE YOU ENTER THIS DEN OF SIN, THINK OF YOUR MOTHER AND YOUR FATHER!&quot;
 He said back to the nun. &quot;They&apos;re dead, they&apos;re dead and in heaven&quot;
@@ -15,6 +16,7 @@ The barman replies &quot;Ah fer christ&apos;s sake is that bloody nun out there 
       <sPunchline></sPunchline>
       <iCategoryID>0</iCategoryID>
     </Joke>
+
     <Joke>
       <sJoke>A father buys a lie detector robot that slaps people when they lie.
 He decides to test it out at dinner one night. The father asks his son what he did that afternoon.
@@ -36,10 +38,6 @@ Robot for sale.</sJoke>
       <sPunchline></sPunchline>
       <iCategoryID>0</iCategoryID>
     </Joke>
-	<Joke>
-      <sJoke>TESTTTTTTTTTTTTTTTTTTT</sJoke>
-      <sPunchline></sPunchline>
-      <iCategoryID>0</iCategoryID>
-    </Joke>
+
   </jokeList>
 </JokeList>
